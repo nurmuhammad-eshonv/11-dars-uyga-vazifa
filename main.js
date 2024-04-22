@@ -147,3 +147,84 @@ for(let i = 0; i < arr.length; i++){
   }
 }
 console.log(`${juftSon},${toqSon.reverse()}`);*/
+
+
+// Uyga vazifa 8-misol
+
+/*let arr = [1,2,3,4,5,6,7,8]
+let result = []
+for(let j = 0; j < arr.length; j +=2){
+    result.push(arr[j]);
+}
+for(let i = 1; i < arr.length; i+=2){
+    result.push(arr[i]);
+}
+console.log(result);*/
+
+
+// 9-misol
+
+/*let arr = [1,2,3,4,5,6,7,8,9]
+
+let resultToq = []
+let resultJuft = []
+for(let i = 1; i < arr.length; i+=2){
+    resultToq.push(arr[i]);
+}
+for(let j = 0; j < arr.length; j +=2){
+    resultJuft.push(arr[j]);
+}
+let res = (`${resultToq},${resultJuft.reverse()}`);
+console.log(res.split(" "));*/
+
+
+// 10 - misol
+/*
+let arr = [1,2,3,4,5,6,7,8]
+let resFirst = []
+let resEnd = []
+let res1middle = []
+let res2middle = []
+for(let i = 0; i < arr.length; i++){
+    resFirst = arr.slice(0,2)
+    resEnd = arr.slice(6,8)
+    res1middle = arr.slice(2,4)
+    res2middle = arr.slice(4,6)
+}
+
+let result = resFirst.concat(resEnd.reverse(), res1middle, res2middle.reverse())
+
+console.log(result);*/
+
+// 11-misol
+
+
+/*let arr = [1, 6, 2, 5, 8, 10, 150]
+let res = 0
+let res2 = 0
+function rangeSum(arr, k, l){
+  for(let i = 0; i < k; i++){
+    res = res + (arr[i]);
+   }
+  for(let j = l; j < arr.length; j++){
+    res2 = res2 +  (arr[j])
+}
+
+console.log(res + res2);
+}rangeSum(arr, 2, 5)*/
+
+// Utga vazifa 13- misol
+
+// function getOddMin(arr) {
+//     var min = arr[0]; 
+//     for (var i = 2; i < arr.length; i += 2) { 
+//         if (arr[i] < min) {
+//             min = arr[i];
+//         }
+//     }
+//     return min;
+// }
+// var arr = [3, 8, 2, 7, 5, 4, 9, 6];
+// var minElement = getOddMin(arr);
+// console.log(minElement);
+
